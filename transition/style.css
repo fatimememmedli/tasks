@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    margin-top: 150px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    animation-iteration-count: infinite;
+
+   
+}
+.container{
+    width: 80%;
+    height: 700px;
+    border: 3px solid black;
+    margin: 0 auto;
+    position: relative;
+}
+.container .box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-duration: 4s;
+    animation-name: action;
+    animation-iteration-count: infinite;
+}
+.container .heart{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 100px;
+    transform: translate(-50%, -50%) scale(1);
+    animation-name: Heart;
+    animation-iteration-count: infinite;
+}
+
+@keyframes action {
+    25%{
+        top: 0;
+        left:1700px;
+        background-color: blueviolet;
+
+    }
+    50%{
+        top: 600px;
+        left: 1700px;
+        background-color: skyblue;
+    }
+    75%{
+        left: 0;
+        top: 600px;
+        background-color: rgb(60, 60, 128);
+
+    }
+    
+}
+@keyframes Heart {
+    0%{
+        transform: translate(-50%, -50%) scale(1);
+
+
+    }
+    33%{
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    66%{
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+    100%{
+        transform: translate(-50%, -50%) scale(1);
+
+    }
+    
+}
