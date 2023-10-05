@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.details {
+  width: 35%;
+  padding: 50px 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.details p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cards {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 {
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-bottom: 17px;
+}
+
+.card1 .image {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: 100%;
+}
+
+.detailsofImage {
+  margin: 17px;
+}
+
+.detailsofImage h1, .detailsofImage p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 17px 0 17px;
+}
+
+.right span {
+  color: rgb(165, 165, 99);
+}
+
+p, h1, h2 {
+  font-family: "Ubuntu";
+}
+
+p {
+  font-weight: 300;
+  color: gray;
+}/*# sourceMappingURL=main.css.map */
