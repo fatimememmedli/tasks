@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  width: 80%;
+  height: 60vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+.btn {
+  background-color: blue;
+  text-align: center;
+  margin: 30px;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+.inp {
+  margin-bottom: 30px;
+}
