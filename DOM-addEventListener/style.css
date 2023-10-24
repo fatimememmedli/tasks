@@ -1,0 +1,46 @@
+.top .container {
+  height: 30vh;
+  border: 1px solid black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#minus {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+#plus {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+p {
+  font-size: 30px;
+  font-weight: bold;
+}
+h5 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myInput {
+  width: 40%;
+  text-align: center;
+}
