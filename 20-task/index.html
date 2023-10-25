@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="form" action="">
+      <div class="row justify-content-center mt-1 mb-3">
+        <div class="col-12 w-25">
+          <div class="form">
+            <div class="input-group flex-nowrap">
+              <span class="input-group-text" id="addon-wrapping">@</span>
+              <input
+                type="text"
+                class="form-control input-name"
+                placeholder="name"
+                aria-label="Username"
+                aria-describedby="addon-wrapping"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-1 mb-3">
+        <div class="col-12 w-25">
+          <div class="form">
+            <div class="input-group flex-nowrap">
+              <span class="input-group-text" id="addon-wrapping">@</span>
+              <input
+                type="text"
+                class="form-control input-surname"
+                placeholder="surname"
+                aria-label="Username"
+                aria-describedby="addon-wrapping"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-2">
+        <div class="col12 w-25 flex">
+          <label for="male">male</label>
+          <input class="input-male" id="male" name="male" type="radio" />
+          <label for="female">female</label>
+          <input class="input-female" id="female" name="male" type="radio" />
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 w-25 mb-2">
+          <div class="form-check">
+            <input
+              class="form-check-input hobbi"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+              name="Gezmek"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Gezmek
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input hobbi"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              name="Kinoya baxmaq"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              kinoya baxmaq
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input hobbi"
+              type="checkbox"
+              value=""
+              name="kitab oxumaq"
+              id="flexCheckChecked"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              kitab oxumaq
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input hobbi"
+              type="checkbox"
+              value=""
+              name="musiqiye qulaq asmaq"
+              id="flexCheckChecked"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              musiqiye qulaq asmaq
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 w-25">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">@</span>
+            </div>
+            <input
+              type="number"
+              class="form-control input-age"
+              placeholder="age"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 w-25">
+          <select
+            class="form-select cities"
+            aria-label="Default select example"
+          >
+            <option selected>select city</option>
+            <option class="city" value="Baku">Baku</option>
+            <option class="city" value="London">London</option>
+            <option class="city" value="Moscow">Moscow</option>
+          </select>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-12 w-25">
+          <input class="input-submit" type="submit" name="" id="" />
+        </div>
+      </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
