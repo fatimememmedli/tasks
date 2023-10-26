@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="head justify-content-center align-item-center d-flex mt-5 mb-4"
+      >
+        <h1>Get data from</h1>
+        <a href="#"><h1>API</h1></a>
+      </div>
+      <div class="buttons text-center mb-4">
+        <button type="button" class="btn get-data-btn btn-warning">
+          get data
+        </button>
+        <button type="button" class="sort-username btn btn-primary">
+          sort by username
+        </button>
+        <button type="button" class="btn btn-primary">
+          sort by ID
+          <i class="fa-solid fa-angle-down" style="color: #ffffff"></i>
+        </button>
+        <button type="button" class="btn btn-danger">clear the table</button>
+      </div>
+      <table class="table">
+        <thead class="thead-dark bg-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Username</th>
+            <th scope="col">Email</th>
+            <th scope="col">Address</th>
+            <th scope="col">Wwbsite</th>
+            <th scope="col">Info</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
