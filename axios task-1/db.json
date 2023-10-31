@@ -1,0 +1,30 @@
+{
+  "singers": [
+    {
+      "id": 1,
+      "image": "https://www.billboard.com/wp-content/uploads/2022/11/03-adele-vegas-residency-2-billboard-2022-1548.jpg?w=875&h=583&crop=1",
+      "name": "Adele",
+      "country": "British",
+      "age": "40",
+      "genre": "R&B"
+    },
+    {
+      "id": 2,
+      "image": "https://www.shape.com/thmb/Fh3SkAa8pN40MYrENF6bq4ObO3g=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Beyonce-Wellness-in-Harpers-Bazaar-GettyImages-1161989270-4-2000-c6a2f9ec67f840c48650a3ea008a4f87.jpg",
+
+      "name": "Beyonce",
+      "country": "American",
+      "age": "40",
+      "genre": "R&B"
+    },
+    {
+      "id": 3,
+      "image": "https://www.rollingstone.com/wp-content/uploads/2023/03/ed-sheeran-outtakes.jpg?w=1581&h=1054&crop=1",
+
+      "name": "Ed Sheeran",
+      "country": "British",
+      "age": "40",
+      "genre": "R&B"
+    }
+  ]
+}

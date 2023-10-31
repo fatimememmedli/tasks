@@ -1,0 +1,28 @@
+header {
+  background: rgb(114, 108, 213);
+  background: linear-gradient(
+    90deg,
+    rgba(114, 108, 213, 1) 0%,
+    rgba(19, 128, 194, 1) 33%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.nav-logo {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+.nav-logo img {
+  width: 100%;
+  height: 100%;
+}
+.table-image {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.table-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
