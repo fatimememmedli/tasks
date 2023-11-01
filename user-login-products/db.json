@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "fatime",
+      "email": "example@.com",
+      "password": "12345"
+    },
+    {
+      "username": "asdasd",
+      "email": "asdasd",
+      "password": "1234",
+      "id": 2
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "closes",
+      "price": 35,
+      "stockCount": 100,
+      "image": "https://assets-global.website-files.com/622327bc87949d02598242bf/63ee9d9164fe2c5db018d68a_food-beverage-mobile.webp",
+      "description": "good product"
+    },
+    {
+      "id": 2,
+      "name": "closes",
+      "price": 35,
+      "stockCount": 100,
+      "image": "https://assets-global.website-files.com/622327bc87949d02598242bf/63ee9d9164fe2c5db018d68a_food-beverage-mobile.webp",
+      "description": "good product"
+    },
+    {
+      "id": 3,
+      "name": "closes",
+      "price": 35,
+      "stockCount": 100,
+      "image": "https://assets-global.website-files.com/622327bc87949d02598242bf/63ee9d9164fe2c5db018d68a_food-beverage-mobile.webp",
+      "description": "good product"
+    },
+    {
+      "id": 4,
+      "name": "closes",
+      "price": 35,
+      "stockCount": 100,
+      "image": "https://assets-global.website-files.com/622327bc87949d02598242bf/63ee9d9164fe2c5db018d68a_food-beverage-mobile.webp",
+      "description": "good product"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
