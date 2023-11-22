@@ -37,14 +37,11 @@ function Products() {
   return (
     <div className="products">
       <h1>Products</h1>
-      <SimpleGrid
-        spacing={4}
-        templateColumns="repeat(auto-fill, minmax(200px, 1fr))"
-      >
-        {products.map((product) => {
+      <SimpleGrid spacing={4}>
+        {products.map((product, i) => {
           return (
             <div>
-              <Card key={uuidv4()}>
+              <Card key={i}>
                 <CardHeader>
                   <Heading size="md">{product.name}</Heading>
                 </CardHeader>
