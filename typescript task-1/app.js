@@ -40,14 +40,67 @@
 // let function createPerson (name:Nametype, surname:Surnametype, age:agetype, id:idtype, birthDate: birthDatetype, hobbies:hobbiestype) {
 // return
 // }
+// task
+// enum ShapeKind {
+//   circle,
+//   square,
+// }
+// interface Shape {
+//   kind: ShapeKind;
+//   radius?: number;
+//   sideLength?: number;
+//   getArea(a: number): number;
+// }
+// class Circle implements Shape {
+//   kind: ShapeKind = ShapeKind.circle;
+//   radius?: number;
+//   constructor(radius: number) {
+//     this.radius = radius;
+//   }
+//   getArea(a: number): number {
+//     return Math.PI * this.radius * this.radius * a;
+//   }
+// }
+// class Square implements Shape {
+//   kind: ShapeKind = ShapeKind.square;
+//   sideLength: number;
+//   constructor(sideLength: number) {
+//     this.sideLength = sideLength;
+//   }
+//   getArea(value: number): number {
+//     return this.sideLength * this.sideLength * value;
+//   }
+// }
+// const circle = new Circle(2);
+// const square = new Square(4);
+// console.log(circle.getArea(1));
+// console.log(square.getArea(1));
 var ShapeKind;
 (function (ShapeKind) {
     ShapeKind[ShapeKind["circle"] = 0] = "circle";
     ShapeKind[ShapeKind["square"] = 1] = "square";
 })(ShapeKind || (ShapeKind = {}));
-// const Rectangle = class {
-//     constructor(height, width) {
-//       this.height = height;
-//       this.width = width;
-//     }
-//   };
+var Circle = /** @class */ (function () {
+    function Circle(radius) {
+        this.kind = ShapeKind.circle;
+        this.radius = radius;
+    }
+    Circle.prototype.getArea = function (a) {
+        return Math.PI * this.radius * this.radius * a;
+    };
+    return Circle;
+}());
+var Square = /** @class */ (function () {
+    function Square(sideLength) {
+        this.kind = ShapeKind.square;
+        this.sideLength = sideLength;
+    }
+    Square.prototype.getArea = function (a) {
+        return this.sideLength * this.sideLength * a;
+    };
+    return Square;
+}());
+var circle = new Circle(2);
+console.log(circle.getArea(1));
+var square = new Square(5);
+console.log(square.getArea(1));

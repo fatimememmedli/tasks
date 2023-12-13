@@ -44,20 +44,80 @@
 // return
 
 // }
+
+// task
+// enum ShapeKind {
+//   circle,
+//   square,
+// }
+
+// interface Shape {
+//   kind: ShapeKind;
+//   radius?: number;
+//   sideLength?: number;
+//   getArea(a: number): number;
+// }
+// class Circle implements Shape {
+//   kind: ShapeKind = ShapeKind.circle;
+//   radius?: number;
+//   constructor(radius: number) {
+//     this.radius = radius;
+//   }
+//   getArea(a: number): number {
+//     return Math.PI * this.radius * this.radius * a;
+//   }
+// }
+// class Square implements Shape {
+//   kind: ShapeKind = ShapeKind.square;
+//   sideLength: number;
+
+//   constructor(sideLength: number) {
+//     this.sideLength = sideLength;
+//   }
+
+//   getArea(value: number): number {
+//     return this.sideLength * this.sideLength * value;
+//   }
+// }
+// const circle = new Circle(2);
+// const square = new Square(4);
+
+// console.log(circle.getArea(1));
+// console.log(square.getArea(1));
+
 enum ShapeKind {
   circle,
   square,
 }
-
 interface Shape {
   kind: ShapeKind;
   radius?: number;
   sideLength?: number;
   getArea(a: number): number;
 }
-// const Rectangle = class {
-//     constructor(height, width) {
-//       this.height = height;
-//       this.width = width;
-//     }
-//   };
+class Circle implements Shape {
+  kind: ShapeKind = ShapeKind.circle;
+  radius: number;
+
+  constructor(radius: number) {
+    this.radius = radius;
+  }
+  getArea(a: number): number {
+    return Math.PI * this.radius * this.radius * a;
+  }
+}
+class Square implements Shape {
+  kind: ShapeKind = ShapeKind.square;
+  sideLength: number;
+
+  constructor(sideLength: number) {
+    this.sideLength = sideLength;
+  }
+  getArea(a: number): number {
+    return this.sideLength * this.sideLength * a;
+  }
+}
+let circle = new Circle(2);
+console.log(circle.getArea(1));
+let square = new Square(5);
+console.log(square.getArea(1));

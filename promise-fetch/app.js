@@ -31,7 +31,7 @@ fetch(url)
     for (let deletebtn of deleteBtns) {
       deletebtn.addEventListener("click", function () {
         this.parentElement.parentElement.remove();
-        console.log(this.name);
+        // console.log(this.name);
         fetch(url + this.name, {
           method: "Delete",
         })
