@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="form" action="submit">
+      <input class="nameInput" placeholder="name" type="text" />
+      <input class="surnameInput" placeholder="surname" type="text" />
+      <input class="ageInput" placeholder="age" type="number" />
+      <select name="cars" id="cars">
+        <option class="studentOption" value="Student">Student</option>
+        <option class="employeeOption" value="Employee">Employee</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    <form class="formStudent" action="submit">
+      <input class="groupName" placeholder="groupName" type="text" />
+      <input class="hobbies" placeholder="hobbies" type="text" />
+      <input class="GPA" placeholder="GPA" type="number" />
+
+      <button type="submit">Submit</button>
+    </form>
+    <form class="formEmployee" action="submit">
+      <input class="salary" placeholder="salary" type="number" />
+      <input class="skills" placeholder="skills" type="text" />
+      <select name="position" id="position">
+        <option class="dev" value="dev">Development</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
