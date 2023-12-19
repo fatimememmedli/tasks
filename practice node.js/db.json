@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "twix",
+      "discountPercentage": 10,
+      "price": 15,
+      "salePrice": 15
+    },
+    {
+      "id": 2,
+      "name": "snickers",
+      "discountPercentage": 10,
+      "price": 10,
+      "salePrice": 15
+    },
+    {
+      "id": 3,
+      "name": "ms",
+      "discountPercentage": 10,
+      "price": 30,
+      "salePrice": 15
+    },
+    {
+      "id": 4,
+      "name": "hello",
+      "discountPercentage": 10,
+      "price": 20,
+      "salePrice": 15
+    }
+  ]
+}
