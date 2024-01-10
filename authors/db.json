@@ -1,0 +1,40 @@
+{
+  "authors": [
+    {
+      "id": "1",
+      "isDead": false,
+      "birth": 1976,
+      "name": "Joanne Rowling",
+      "gender": "female",
+      "genre": "fantasy",
+      "image": "https://www.thoughtco.com/thmb/JRsMau3HH7PlLgmCwJJ5GLrLI88=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/187481804-58b9ce323df78c353c385b70.jpg"
+    },
+    {
+      "id": "2",
+      "isDead": false,
+      "birth": 1978,
+      "name": "Stephen King",
+      "gender": "male",
+      "genre": "fantasy",
+      "image": "https://stephenking.com/images/press/stephenking-sm.jpg"
+    },
+    {
+      "id": "4",
+      "isDead": false,
+      "birth": 1990,
+      "name": " John Green",
+      "gender": "female",
+      "genre": "fantasy",
+      "image": "https://mczellbookwriting.com/blog/wp-content/uploads/2022/07/John-Green-300x200.jpg"
+    },
+    {
+      "id": "4",
+      "isDead": false,
+      "birth": 1990,
+      "name": "Elif Shafak",
+      "gender": "female",
+      "genre": "fantasy",
+      "image": "https://mczellbookwriting.com/blog/wp-content/uploads/2022/07/Elif-Shafak.jpg"
+    }
+  ]
+}
