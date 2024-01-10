@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 30%;
+  margin: 100px auto;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  /* max-height: 90vh; */
+
+  justify-content: space-between;
+}
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 0;
+  height: 500px;
+  overflow-y: scroll;
+  scroll-behavior: auto;
+}
+.message1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #31a8d4;
+  width: 40%;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  overflow: hidden;
+}
+.message2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f1f2f4;
+  width: 40%;
+
+  overflow: hidden;
+
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.input {
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #f2f3f8;
+}
+.text2 {
+  font-size: 20px;
+  /* width: 100%; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  word-wrap: break-word;
+}
+.text1 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  word-wrap: break-word;
+}
+.input-btn {
+  display: flex;
+  gap: 10px;
+}
+.btn {
+  border: none;
+  padding: 10px 20px;
+  background-color: #31a8d4;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
